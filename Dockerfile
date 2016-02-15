@@ -1,2 +1,2 @@
 FROM maven:latest
-CMD ["mvn jetty:run"]
+CMD ["mvn", "jetty:run"]
