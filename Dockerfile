@@ -1,4 +1,2 @@
-FROM maven:latest
-ADD . /usr/src/app
-WORKDIR /usr/src/app
+FROM maven:onbuild
 CMD ["mvn", "jetty:run"]
